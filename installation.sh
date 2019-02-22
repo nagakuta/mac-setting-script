@@ -10,8 +10,5 @@ defaults write com.apple.dock static-only -boolean true
 defaults write com.apple.dashboard mcx-disabled -bool true
 killall Dock
 
-defaults write com.apple.screencapture disable-shadow -bool true
-defaults write com.apple.screencapture name ""
 defaults write com.apple.screencapture location ~/Pictures/Screenshots/
 killall SystemUIServer
-
