@@ -6,7 +6,7 @@ defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
 defaults write -g NSNavRecentPlacesLimit -int 10
 killall Finder
 
-defaults write com.apple.dock static-only -boolean true
+defaults write com.apple.dock static-only -bool true
 defaults write com.apple.dashboard mcx-disabled -bool true
 killall Dock
 
