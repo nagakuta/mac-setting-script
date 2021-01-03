@@ -9,5 +9,5 @@ defaults write com.apple.dock static-only -bool true
 defaults write com.apple.dashboard mcx-disabled -bool true
 killall Dock
 
-defaults write com.apple.screencapture location ~/Pictures/Screenshots/
+defaults write com.apple.screencapture location $HOME/Pictures/Screenshots/
 killall SystemUIServer
