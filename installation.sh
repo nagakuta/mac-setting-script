@@ -1,5 +1,5 @@
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
-defaults write com.apple.finder PathBarRootAtHome -bool yes
+defaults write com.apple.finder PathBarRootAtHome -bool true
 defaults write com.apple.Finder QuitMenuItem -bool true
 defaults write com.apple.finder QLEnableTextSelection -bool true
 defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
