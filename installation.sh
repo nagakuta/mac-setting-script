@@ -3,7 +3,6 @@ defaults write com.apple.finder PathBarRootAtHome -bool true
 defaults write com.apple.Finder QuitMenuItem -bool true
 defaults write com.apple.finder QLEnableTextSelection -bool true
 defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
-defaults write -g NSNavRecentPlacesLimit -int 10
 killall Finder
 
 defaults write com.apple.dock static-only -bool true
