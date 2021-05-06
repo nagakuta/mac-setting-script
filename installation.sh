@@ -12,5 +12,5 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.Dock showhidden -bool true
 killall Dock
 
-mkdir -p $HOME/Pictures/Screenshots && defaults write com.apple.screencapture location $HOME/Pictures/Screenshots/
+mkdir -p $HOME/Pictures/Screenshots/ && defaults write com.apple.screencapture location $HOME/Pictures/Screenshots/
 killall SystemUIServer
