@@ -4,6 +4,7 @@ defaults write com.apple.Finder QuitMenuItem -bool true
 defaults write com.apple.finder QLEnableTextSelection -bool true
 defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
 defaults write com.apple.finder QLEnableTextSelection -bool true
+defaults write com.apple.finder AppleShowAllFiles true
 defaults write com.apple.screencapture disable-shadow -bool true
 killall Finder
 
